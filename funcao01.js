@@ -1,0 +1,10 @@
+function parimpar(n) {
+    if (n%2 == 0){
+        return 'Par'
+    } else {
+        'Impar'
+    }
+}
+
+let res = parimpar (4) //console.log(parimpar(4))
+console.log(res)
